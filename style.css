@@ -1,0 +1,98 @@
+/* Reset das configurações do navegador */
+* {
+  padding: 0;
+  margin: 0;
+  vertical-align: baseline;
+  list-style: none;
+  border: 0;
+}
+
+/* Estilo do corpo e imgaem do fundo da pagina */
+body {
+  height: 100vh;
+  font-family: "Courier New", Courier, monospace;
+  background-image: url("https://i.postimg.cc/wMcrg2t1/pla.jpg");
+  background-color: #1e1f26;
+  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+/* Estilo do container */
+.container {
+  text-align: center;
+  padding: 1rem;
+}
+
+/* Estilo do titulo principal da pagina */
+.page-title {
+  margin-top: 1.6rem;
+  color: aliceblue;
+}
+
+.logo {
+  top: 5.6rem;
+  position: absolute;
+  left: 38.5rem;
+}
+
+/* Configuração dos personagens do jogo */
+.rick {
+  background-image: url("https://i.postimg.cc/d348J7jR/rick.png");
+  margin-top: 33%;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+}
+
+.morty {
+  background-image: url("https://i.postimg.cc/bYT0xMfG/morty.png");
+  margin-top: -12%;
+  margin-left: 14%;
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+}
+
+.beth {
+  background-image: url("https://i.postimg.cc/vHZr3zG0/beth.png");
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  margin-top: -13%;
+  margin-left: 24%;
+}
+
+.squanchy {
+  background-image: url("https://i.postimg.cc/m2pQqHDB/squanchy.png");
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  margin-top: -12%;
+  margin-left: 36%;
+}
+
+.sr-goldenfold {
+  background-image: url("https://i.postimg.cc/nzx77KdY/sr-goldenfold.png");
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  margin-top: -12%;
+  margin-left: 45%;
+}
+
+.sr-bunda-cagada {
+  background-image: url("https://i.postimg.cc/PJrwVXnC/bunda-cagada.png");
+  background-repeat: no-repeat;
+  width: 180px;
+  height: 180px;
+  margin-top: -13%;
+  margin-left: 54%;
+}
+
+/* Configuração do tamanho em 500px */
+@media (max-height: 500px) {
+  body {
+    min-height: 800px;
+  }
+}
